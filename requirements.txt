@@ -1,0 +1,9 @@
+click
+Flask
+Flask-PyMongo
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+pymongo
+Werkzeug
