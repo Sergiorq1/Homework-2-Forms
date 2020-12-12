@@ -1,8 +1,17 @@
 from flask import Flask, request, render_template
 import random
+from pymongo import MongoClient
+from dotenv import load_dotenv
+
 
 app = Flask(__name__)
 app.debug = True
+
+
+client = MongoClient("mongodb+srv://MyMongoDBUser:<bruh>@cluster0.jvb3l.mongodb.net/<Cluster0>?retryWrites=true&w=majority")
+
+
+
 def sort_letters(message):
     """A helper method to sort the characters of a string in alphabetical order
     and return the new string."""

@@ -6,4 +6,6 @@ itsdangerous
 Jinja2
 MarkupSafe
 pymongo
+python-dotenv
+dnspython
 Werkzeug
